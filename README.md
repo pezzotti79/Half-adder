@@ -9,6 +9,11 @@ Understanding Binary Addition
 Binary numbers consist of only 0s and 1s, unlike the decimal system, which uses digits from 0 to 9. Due to this, binary numbers tend to appear longer as they increase in value. For instance, the decimal numbers 0 through 5 are represented in binary as follows:
 ![image](https://github.com/user-attachments/assets/93d3b172-31db-4c09-b26d-acdad6d0299a)
 
+How the Half Adder Works
+
+The half adder operates based on the following truth table:
+![image](https://github.com/user-attachments/assets/e97786b2-88af-423b-80cd-e78b4924a869)
+
 Explanation:
 
 When both inputs (A and B) are 0, the sum (S) is 0, and the carry-out (Cout) is 0.
@@ -38,18 +43,21 @@ Using an integrated circuit (IC), I constructed a simple half adder. The images 
 Both inputs are 0
 
 Result: Both the Sum (S) and Carry-out (Cout) LEDs remain off.
+![image](https://github.com/user-attachments/assets/1b183cae-ed01-42e2-b1e4-ca80e59cc629)
 
 
 
 Inputs: A = 0, B = 1
 
 Result: The Sum (S) LED lights up, while Cout remains off.
+![image](https://github.com/user-attachments/assets/749dd798-74fd-476d-b535-77995e301041)
 
 
 
 Inputs: A = 1, B = 1
 
 Result: The Sum (S) LED turns off, while the Carry-out (Cout) LED turns on.
+![image](https://github.com/user-attachments/assets/5421077c-4c51-4031-88bb-3d5e0408a69b)
 
 
 
